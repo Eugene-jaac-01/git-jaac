@@ -1,0 +1,108 @@
+body {
+    --primary-color:#ffc107;
+    --primary-color-text:white;
+    --secondary-color:#28a745;
+    --secondary-color-text:white;
+   }
+    
+.jaac_bg_primary{
+    background-color:  var(--primary-color);
+    color:  var(--primary-color-text);
+    font-size: 20px;
+}
+.jaac_bg_secondary{
+    background-color:  var(--secondary-color);
+    color:  var(--secondary-color-text);
+    font-size: 20px;
+}
+.row.jaac_font_center.jaac_bg_thirly {
+    background-color: white;
+    color: black;
+}
+
+.jaac_font_center{
+    text-align: center;
+}
+
+}
+.jaac_container {
+    padding: 15px;
+}
+
+.jaac .row {
+    padding: 5px;
+}
+.container.jaac {
+    border: 1px solid black;
+}
+
+
+
+.jaac_palette
+{
+  border:1px solid black;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    
+}
+
+.jaac_palette  div:first-child
+{
+  border:1px solid black;
+}
+
+.jaac_cont02
+{
+   color: #343a40!important; 
+   padding: 1rem!important;
+   margin-bottom: .5rem!important;
+    background-color: #ffc107!important;
+    box-sizing: border-box;
+    display: block;
+}
+
+/*Button code*/
+.button {
+  border: none;
+  color: white;
+  padding: 5px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+  
+}
+ 
+
+
+.drop_hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8) inset;
+}
+
+#canvas{
+    border: 2px solid orange;
+}
